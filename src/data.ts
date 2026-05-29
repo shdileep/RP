@@ -316,7 +316,7 @@ export const EDUCATION: Education[] = [
     degree: "PUC (Pre-University Course)",
     institution: "RGUKT Nuzvid, AP",
     period: "2017 – 2019",
-    specialization: "MPC (Mathematics, Physics, Chemistry)",
+    specialization: "MBiPC",
     highlights: [
       "Advanced Calculus, Vectors & Analytical Geometry",
       "Electromagnetism, Quantum Mechanics, & Semiconductor Physics",
