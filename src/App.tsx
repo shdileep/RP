@@ -12,6 +12,7 @@ import RadarSkills from "./components/RadarSkills";
 import HardwareLogicStudio from "./components/HardwareLogicStudio";
 import ProjectsSection from "./components/ProjectsSection";
 import CircuitBackground from "./components/CircuitBackground";
+import chipSchematicImage from "./assets/images/embedded_chip_schematic_1779954502893.png";
 
 import { PERSONAL_INFO, EXPERIENCES, TECHNICAL_TOOLS, EDUCATION, TERMINAL_THEMES } from "./data";
 
@@ -880,7 +881,7 @@ export default function App() {
                   <div className="relative my-4 w-40 h-40 flex items-center justify-center p-1 border border-slate-800 rounded-2xl bg-slate-950 overflow-hidden group">
                     <div className="absolute -inset-1 blur-md bg-gradient-to-tr from-brand-cyan via-brand-purple to-brand-lime opacity-35 animate-pulse" />
                     <img 
-                      src="/src/assets/images/embedded_chip_schematic_1779954502893.png" 
+                      src={chipSchematicImage} 
                       alt="System Microprocessor Diagram" 
                       referrerPolicy="no-referrer"
                       className="relative z-10 w-full h-full object-cover rounded-xl border border-slate-900 filter saturate-[110%]"

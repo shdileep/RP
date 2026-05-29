@@ -1,13 +1,14 @@
 import { Mail, Phone, MapPin, CircleDot, Github, Linkedin, Cpu, Terminal, Layers } from "lucide-react";
 import { PERSONAL_INFO } from "../data";
 import { motion } from "motion/react";
+import avatarImage from "../assets/images/reva.jpeg";
 
 interface SidebarPanelProps {
   terminalMode: boolean;
 }
 
 export default function SidebarPanel({ terminalMode }: SidebarPanelProps) {
-  const avatarPath = "/src/assets/images/reva.jpeg";
+  const avatarPath = avatarImage;
 
   return (
     <div className={`p-6 rounded-3xl border ${terminalMode
