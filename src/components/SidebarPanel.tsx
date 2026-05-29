@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, CircleDot, Github, Linkedin, Cpu, Terminal, Layers } from "lucide-react";
 import { PERSONAL_INFO } from "../data";
 import { motion } from "motion/react";
-import avatarImage from "../assets/images/reva.jpeg";
+import avatarImage from "../assets/images/revaa.png";
 
 interface SidebarPanelProps {
   terminalMode: boolean;
@@ -36,7 +36,8 @@ export default function SidebarPanel({ terminalMode }: SidebarPanelProps) {
               src={avatarPath}
               alt={PERSONAL_INFO.name}
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover rounded-full filter grayscale-[15%] group-hover:scale-105 transition-transform duration-500"
+              style={{ objectPosition: "center 15%" }}
+              className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-500"
             />
           </div>
 
