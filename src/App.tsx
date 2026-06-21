@@ -70,7 +70,7 @@ export default function App() {
 
     if (!isDeleting && currentText === currentWord) {
       timer = setTimeout(() => setIsDeleting(true), 1500);
-    } else if (isDeleting && currentText === "") {
+    } else if (isDeleting && !currentText) {
       setIsDeleting(false);
       setWordIndex((prev) => (prev + 1) % typingWords.length);
     }
